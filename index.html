@@ -478,9 +478,9 @@
           <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
           @vertumgardeningservices
         </a>
-        <a class="contact-pill" href="mailto:vertum@gmail.com">
+        <a class="contact-pill" href="mailto:liam@vertum.co.uk">
           <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          vertum@gmail.com
+          liam@vertum.co.uk
         </a>
         <a class="contact-pill" href="tel:07733234559">
           <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h3l2 5-2.5 2a12 12 0 006.5 6.5l2-2.5 5 2v3a2 2 0 01-2.2 2A17 17 0 014 5.2 2 2 0 016 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
@@ -495,7 +495,7 @@
         </div>
         <textarea name="message" placeholder="Tell me about your garden…" required></textarea>
         <button type="submit">Send Message</button>
-        <p class="form-note">This opens your email app addressed to vertum@gmail.com — swap the address in the form's code to use your own, or connect it to a form service of your choice.</p>
+        <p class="form-note">This opens your email app addressed to liam@vertum.co.uk — swap the address in the form's code to use your own, or connect it to a form service of your choice.</p>
       </form>
     </div>
   </div>
@@ -568,7 +568,7 @@
     const data = new FormData(e.target);
     const subject = encodeURIComponent(`Garden quote request from ${data.get('name')}`);
     const body = encodeURIComponent(`${data.get('message')}\n\nFrom: ${data.get('name')} (${data.get('email')})`);
-    window.location.href = `mailto:vertum@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:liam@vertum.co.uk?subject=${subject}&body=${body}`;
   });
 
   document.getElementById('year').textContent = new Date().getFullYear();
